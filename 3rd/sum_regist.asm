@@ -1,0 +1,59 @@
+STKSEG SEGMENT STACK 
+    DW 32 DUP(0) 
+STKSEG ENDS 
+
+DATASEG SEGMENT
+    COUNT DW 100
+    TMP DW 0
+DATASEG ENDS
+
+ASSUME CS:CODESEG,DS:DATASEG,SS:STKSEG 
+
+CODESEG SEGMENT 
+MAIN PROC FAR 
+    MOV AX,DATASEG 
+    MOV DS,AX 
+    
+    MOV CX,COUNT
+    XOR AX,AX
+SUM:
+    ADD AX,CX
+    LOOP SUM
+    
+    MOV CX,AX
+    XOR BX,BX
+    MOV BL,1
+
+TRANSF:
+    XCHG AX,BX
+    MOV DX,10
+    MUL DX
+    XCHG AX,BX
+    DIV BX
+    CMP AX,0
+    JNE TRANSF
+
+OUTPUT:
+    XCHG AX,BX
+    ;wrong happening
+    MOV DX,10
+    DIV DX
+    XCHG AX,BX
+    DIV BX
+    ADD DL,30H
+    XCHG AX,CX
+    MOV AH,2
+    INT 21H
+    XCHG AX,CX
+    CMP BX,1
+    JNE OUTPUT
+    
+    MOV AX,4C00H 
+    INT 21H
+    
+MAIN ENDP 
+
+CODESEG ENDS 
+
+END MAIN 
+substitute

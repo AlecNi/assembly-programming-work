@@ -37,3 +37,11 @@ sum.c file is the resource file write by c
 sum.asm/.exe file is disassemble/compile by objdump tools of gcc of mingw64
 
 watching package 3rd for more information
+
+## 4. output & check of 9 mul 9 table
+
+9mul9.asm/.exe file output the entire 9mul9 table
+
+check.asm/.exe file prompt the palce of wrong data in 9*9 data matrix/9mul9 table data matrix
+
+watching package 4th for more information

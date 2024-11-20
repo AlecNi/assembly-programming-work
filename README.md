@@ -70,16 +70,18 @@ watching package 4th for more information
 ## 5. middle work
 
 ### main.asm file
-
+invoke functions to achievie the request
 
 ### predeal.asm
-
+in responsible of the processing data
+offer public function PIP_OP
 
 ### print.asm
-
+in responsible of the outputing
+offer public function PIP_PRINT & CLS
 
 ### main.exe file
-
+achieve the request of output
 
 watching package middle for more information
 

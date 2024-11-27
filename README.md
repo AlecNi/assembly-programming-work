@@ -67,7 +67,7 @@ watching package 4th for more information
 
 
 
-## 5. middle work
+## middle work
 
 ### main.asm file
 invoke functions to achievie the request
@@ -82,6 +82,27 @@ offer public function PIP_PRINT & CLS
 
 ### main.exe file
 achieve the request of output
+
+watching package middle for more information
+
+
+
+## 5. runtime environment(run in windows x86/64)
+
+### block.c/.exe file
+see the memory blocks of a process
+
+### stack.cpp/.exe file
+test the size of the stack of the process
+
+### recursive.c file
+the file with a nested function
+
+### compile.s file
+the compile result with input recursive.c via web "compiler expolrer"
+
+### decom.bat file
+windows scipts of compiling recursive.c to recursive.s with gcc
 
 watching package middle for more information
 

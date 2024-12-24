@@ -1,5 +1,8 @@
 it is a personal class homework repoitory for assembly programming
 
+8086 work on Dosbox with MASM tools
+
+---
 
 ## 1. Learn how to use DOSBox & MASM tools
 
@@ -7,7 +10,7 @@ it is a personal class homework repoitory for assembly programming
 
 watching package 1st for more information
 
-
+---
 
 ## 2. Nested loop & Use disassembly
 
@@ -28,7 +31,7 @@ is disassemble/compile by objdump tools of gcc of mingw64
 
 watching package 2nd for more information
 
-
+---
 
 ## 3. sum & io
 
@@ -53,7 +56,7 @@ is disassemble/compile by objdump tools of gcc of mingw64
 
 watching package 3rd for more information
 
-
+---
 
 ## 4. output & check of 9 mul 9 table
 
@@ -65,7 +68,7 @@ prompt the palce of wrong data in 9*9 data matrix/9mul9 table data matrix
 
 watching package 4th for more information
 
-
+---
 
 ## middle work
 
@@ -85,7 +88,7 @@ achieve the request of output
 
 watching package middle for more information
 
-
+---
 
 ## 5. runtime environment(run in windows x86/64)
 
@@ -104,7 +107,23 @@ the compile result with input recursive.c via web "compiler expolrer"
 ### decom.bat file
 windows scipts of compiling recursive.c to recursive.s with gcc
 
-watching package middle for more information
+watching package 5th for more information
 
+---
 
+## fianl project
 
+### video.asm/.exe file
+achieve the request of play video
+
+### test.asm/.exe
+test the VGA color read and output(old structure)
+
+### seecolor.exe
+output color in colors.txt
+
+watching package final for more information
+
+---
+
+## Ending
